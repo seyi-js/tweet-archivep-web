@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=DM+Sans&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  /* transition:all 0.2s ease-in-out; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'DM Sans', sans-serif;
+
+}
+*::-moz-selection{
+  background:#9E9E9E;
+}
+*::selection{
+  background:#9E9E9E ;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background: #070000d8;
+  /* color:white; */
+  height: 100vh;
+
+  
+}
+
+.home-page{
+  /* background-color: aqua; */
+  height: 100%;
+  padding: 10% 10%;
+}
+
+.home-page form{
+  /* background-color: rgb(19, 32, 32); */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.home-page form div{
+  display: flex;
+  flex-direction: column;
+  /* align-items: baseline; */
+  width: 40%;
+}
+
+.home-page form div{
+  margin:5px 0;
+}
+
+.home-page form div label{
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: white;
+}
+
+
+.home-page form div input{
+  padding: 3px;
+  border: 1px solid black;
+}
+
+
+.pull-data{
+
+  margin: 10px 0;
+  padding: 10px ;
+  background-color: black;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.pull-data:hover{
+  
+}
+
+.tweets{
+  margin-top: 40px;
+}
+
+.inner{
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.inner h1{
+  font-size: 25px;
+  margin: 10px 0;
+  color: aquamarine;
+}
+
+.inner h3{
+  font-size:18px ;
+  margin: 5px 0;
+  color:#fff;
+}
+.media-files{
+  margin:  15px 0;
+  
+}
+
+.media-files a{
+  color: #fff;
+}
+
+.inner p{
+  color: #fff;
+}
+
+
+.no-tweet-found{
+  margin-top: 30px;
+}
+
+.no-tweet-found p{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.note{
+  color: #fff;
+  width: 50%;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (max-width:768px){
+  .home-page{
+    padding: 10% 5%;
+  }
+
+  .home-page form div{
+    width: 60%;
+  }
+}
+
+@media (max-width:425px){
+ 
+
+  .home-page form div{
+    width: 80%;
+  }
+
+  .note{
+    width: 100%;
+  }
+
+  .pull-data{
+
+    width: 30%;
+  }
+}
+
+@media (max-width:375px){
+ 
+
+  .home-page form div label{
+    font-size: 15px;
+  }
+  .home-page form div{
+    width: 100%;
+  }
+  .inner h3{
+    font-size:15px ;
+  }
+
+  .pull-data{
+
+    width: 50%;
+  }
+  
+}
