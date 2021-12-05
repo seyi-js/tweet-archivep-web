@@ -8,7 +8,7 @@ const App = () => {
     tweets: [],
     skip: 0,
     limit: 100,
-    search: 'tolu'
+    search: ''
   });
 
 
